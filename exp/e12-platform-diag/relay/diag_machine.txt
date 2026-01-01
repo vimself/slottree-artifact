@@ -1,0 +1,41 @@
+date:     2026-11-12 19:36:35 CST
+uname:    Linux 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64
+Architecture:                            x86_64
+CPU(s):                                  32
+Model name:                              Intel(R) Core(TM) i9-14900K
+Thread(s) per core:                      2
+Core(s) per socket:                      24
+Socket(s):                               1
+CPU(s) scaling MHz:                      98%
+CPU max MHz:                             6000.0000
+CPU min MHz:                             800.0000
+L1d cache:                               896 KiB (24 instances)
+L2 cache:                                32 MiB (12 instances)
+L3 cache:                                36 MiB (1 instance)
+governor (cpu0):        powersave
+governor (全部核计数):   32 powersave;
+scaling_driver (cpu0):  intel_pstate
+intel_pstate status:    active
+intel_pstate no_turbo:  0
+THP enabled:            always [madvise] never
+THP defrag:             always defer defer+madvise [madvise] never
+cpu_core cpus:          0-15
+cpu_atom cpus:          16-31
+性能核（P 用）:         0   能效核（E 用）: 16
+glibc:    ldd (Ubuntu GLIBC 2.39-0ubuntu8.8) 2.39
+g++:      g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+clang++:  没有
+taskset:  /usr/bin/taskset
+perf:     /usr/bin/perf（WARNING: perf not found for kernel 6.17.0-35）
+perf_event_paranoid:    4
+python3:  Python 3.13.9
+mem GiB:  total 188, used 58, free 37
+load:     6.26, 3.79, 3.51
+top cpu:
+      PID %CPU %MEM PSR     ELAPSED COMMAND
+  1217604  103  0.3   4       00:15 seekdb
+  1219113 61.2  0.6   9       00:10 MainThread
+  1216598 46.7  0.7  30       00:27 MainThread
+  1217493 46.2  0.7  15       00:16 python
+  1216613 18.2  0.2  30       00:27 MainThread
+g++ -O2 -std=c++20 -Wall -Wextra（g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0）；警告 0 条

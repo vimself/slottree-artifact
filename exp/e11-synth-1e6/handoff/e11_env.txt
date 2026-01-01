@@ -1,0 +1,18 @@
+# E11 run  2026-11-11 21:00:46 PST
+Apple clang version 21.0.0 (clang-2100.3.34.2)
+Apple M4
+memory_bytes 17179869184
+stream rw-n1000000-g1-b0  events 10000611  sha256 8a8ed7ce5cedec0e3334a23c7d27e00e6f176759f6d55c822ebd16d78a451a15
+source sha256 3fff525e382bed66eebc76f6cc570b1340e6887b11100a76bcecd98053f98ca3
+2026-11-11 21:01:03  k=1 GRETA-C++ 开始前  load: 3.60 3.59 3.57
+2026-11-11 22:13:50  k=1 GRETA-C++ 结束后  load: 3.29 3.64 3.70
+2026-11-11 22:14:29  k=6 GRETA-C++ 开始前  load: 3.97 3.75 3.73
+# E11 resume  2026-11-12 02:15:45 PST
+Apple clang version 21.0.0 (clang-2100.3.34.2)
+Apple M4
+memory_bytes 17179869184
+stream rw-n1000000-g1-b0  events 10000611  sha256 8a8ed7ce5cedec0e3334a23c7d27e00e6f176759f6d55c822ebd16d78a451a15
+source sha256 3fff525e382bed66eebc76f6cc570b1340e6887b11100a76bcecd98053f98ca3
+2026-11-12 02:15:45  k=6 GRETA-C++ 开始前  load: 3.13 3.16 2.77
+2026-11-12 08:01:28  k=6 GRETA-C++ 结束后  load: 2.95 2.45 2.24
+# done 2026-11-12 08:01:28 PST

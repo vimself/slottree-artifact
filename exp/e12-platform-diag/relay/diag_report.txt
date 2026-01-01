@@ -1,0 +1,53 @@
+# E12 · 第二平台诊断（exp/e12-platform-diag/README.md 第 1 节；描述性，不设判据）
+生成：2026-11-12 19:45:51；输入：exp/e12-platform-diag/handoff/e12_times.tsv（45 行）、exp/e12-platform-diag/handoff/e12_perf.tsv（0 行）
+回放 R(25)，COUNT，⋈ 为 <，s = 30 s；每个（条件, 格, 臂）一个进程，预热 1 + 计时 3，取 3 遍中位（秒）
+
+## 1. 中位时间（秒）
+（格, 臂）                                   A           P           E          PH          PC          A2
+格 1 W=600 s GRETA-C++               14.240      15.592      23.401      13.852          没跑      14.392
+格 1 W=600 s SlotTree                 2.214       2.280       3.573       1.920          没跑       2.224
+格 2 W=1800 s SlotTree                7.385       7.722      11.876       6.004          没跑       7.254
+
+## 2. 各条件 ÷ A
+（格, 臂）                                   A           P           E          PH          PC          A2
+格 1 W=600 s GRETA-C++                1.000       1.095       1.643       0.973          没跑       1.011
+格 1 W=600 s SlotTree                 1.000       1.030       1.614       0.867          没跑       1.004
+格 2 W=1800 s SlotTree                1.000       1.046       1.608       0.813          没跑       0.982
+
+## 3. 各条件 ÷ 本机同格（本机 = e10_times.tsv 同格中位；E10 部分 D = e10_ws_times.tsv 同格中位，作对照）
+（格, 臂）                                本机     E10 D      D÷本机           A           P           E          PH          PC          A2
+格 1 W=600 s GRETA-C++             24.144    13.997     0.580       0.590       0.646       0.969       0.574          没跑       0.596
+格 1 W=600 s SlotTree               1.712     2.182     1.275       1.293       1.332       2.088       1.122          没跑       1.299
+格 2 W=1800 s SlotTree              4.280     7.288     1.703       1.725       1.804       2.774       1.403          没跑       1.695
+
+## 4. r = T_GRETA-C++ ÷ T_SlotTree（格 1）
+                                         A           P           E          PH          PC          A2
+r（本条件）                                6.43        6.84        6.55        7.21           —        6.47
+对照：本机 r = 14.11；E10 部分 D r = 6.41
+
+## 5. 频率（kHz；每个进程前后各读一次 scaling_cur_freq：绑核时读所绑的核，不绑核时读全部核里最高的；? = 读不到）
+  A   格 1 W=600 s GRETA-C++        cpu=-   bin=gcc    前 5604713 → 后 5605313
+  A   格 1 W=600 s SlotTree         cpu=-   bin=gcc    前 5608536 → 后 5608433
+  A   格 2 W=1800 s SlotTree        cpu=-   bin=gcc    前 5600000 → 后 5708854
+  P   格 1 W=600 s GRETA-C++        cpu=0   bin=gcc    前 5697771 → 后 5600000
+  P   格 1 W=600 s SlotTree         cpu=0   bin=gcc    前 5510985 → 后 5600000
+  P   格 2 W=1800 s SlotTree        cpu=0   bin=gcc    前 5500000 → 后 5600000
+  E   格 1 W=600 s GRETA-C++        cpu=16  bin=gcc    前 4425000 → 后 4399939
+  E   格 1 W=600 s SlotTree         cpu=16  bin=gcc    前 4400400 → 后 4414299
+  E   格 2 W=1800 s SlotTree        cpu=16  bin=gcc    前 4399617 → 后 4399959
+  PH  格 1 W=600 s GRETA-C++        cpu=0   bin=gcc    前 5616930 → 后 5505071
+  PH  格 1 W=600 s SlotTree         cpu=0   bin=gcc    前 5552348 → 后 5595908
+  PH  格 2 W=1800 s SlotTree        cpu=0   bin=gcc    前 5500000 → 后 5500000
+  A2  格 1 W=600 s GRETA-C++        cpu=-   bin=gcc    前 5600000 → 后 5594743
+  A2  格 1 W=600 s SlotTree         cpu=-   bin=gcc    前 5558612 → 后 5600000
+  A2  格 2 W=1800 s SlotTree        cpu=-   bin=gcc    前 5595614 → 后 5704781
+
+## 6. 硬件计数器（条件 P 的绑核方式；每遍 = (parse+3 − parse) ÷ 3；每事件 = 每遍 ÷ 847149 个事件）
+  没跑（perf 不可用或条件 P 没跑；原因见 relay/diag_status.txt 的 notes）
+
+## 7. 读法（协议第 1 节；10% 是读数的线）
+读法 1：格 1 W=600 s GRETA-C++ T_A2÷T_A = 1.011（+1.1%）；格 1 W=600 s SlotTree T_A2÷T_A = 1.004（+0.4%）；格 2 W=1800 s SlotTree T_A2÷T_A = 0.982（-1.8%） ⇒ 都在 10% 以内：机器这段时间没有明显漂移
+读法 2：格 1 W=600 s GRETA-C++ T_P÷T_A = 1.095（+9.5%）；格 1 W=600 s SlotTree T_P÷T_A = 1.030（+3.0%）；格 2 W=1800 s SlotTree T_P÷T_A = 1.046（+4.6%） ⇒ P 都没有比 A 快 10% 以上。格 1 W=600 s GRETA-C++ T_E÷T_A = 1.643（+64.3%）；格 1 W=600 s SlotTree T_E÷T_A = 1.614（+61.4%）；格 2 W=1800 s SlotTree T_E÷T_A = 1.608（+60.8%） ⇒ E 与 A 都相差 10% 以上
+读法 3：格 1 W=600 s GRETA-C++ T_PH÷T_P = 0.888（-11.2%）；格 1 W=600 s SlotTree T_PH÷T_P = 0.842（-15.8%）；格 2 W=1800 s SlotTree T_PH÷T_P = 0.778（-22.2%） ⇒ PH 比 P 快 10% 以上（格 1 W=600 s GRETA-C++、格 1 W=600 s SlotTree、格 2 W=1800 s SlotTree）：TLB 是原因之一
+读法 4：没跑（PC 或 P 没有可读的格）
+读法 5：不适用 —— 过线的有：PH 快于 P

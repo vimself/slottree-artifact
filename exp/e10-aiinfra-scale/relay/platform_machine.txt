@@ -1,0 +1,27 @@
+date:     2026-11-11 21:48:24 CST
+uname:    Linux 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64
+Architecture:                            x86_64
+CPU(s):                                  32
+Model name:                              Intel(R) Core(TM) i9-14900K
+Thread(s) per core:                      2
+Core(s) per socket:                      24
+Socket(s):                               1
+CPU(s) scaling MHz:                      95%
+CPU max MHz:                             6000.0000
+CPU min MHz:                             800.0000
+L2 cache:                                32 MiB (12 instances)
+L3 cache:                                36 MiB (1 instance)
+governor: powersave
+g++:      g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+python3:  Python 3.13.9
+mem GiB:  total 188, used 50, free 13
+disk free GiB (repo): 4
+load:     4.08, 3.38, 3.21
+top cpu:
+  %CPU COMMAND
+   103 seekdb
+  70.0 MainThread
+  33.0 ToDesk_Session
+  25.1 MainThread
+  19.0 MainThread
+编译选项：g++ -O2 -std=c++20 -Wall -Wextra（g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0）；警告 0 条

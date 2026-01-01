@@ -1,0 +1,3 @@
+# 只给 prep_e9_llm.py（仓库根 .venv，Python 3.13.13）；其余脚本纯标准库
+pyarrow==26.0.1
+numpy==2.5.3

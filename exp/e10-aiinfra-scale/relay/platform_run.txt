@@ -1,0 +1,109 @@
+load before: 3.94, 3.66, 3.34
+21:50:52 输入占用 r25：847149 个事件
+21:50:53 输入占用 r100：3404975 个事件
+21:50:57 输入占用 r400：13660283 个事件
+21:51:06 探测 gpu_hold COUNT W=300 X=1000: OPP=7.075302 M=1.459769 ⇒ D=1
+21:51:56 gpu_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+21:52:07 gpu_hold COUNT W=300 X=1000 D=1 proc=1 M
+21:52:49 gpu_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+21:52:58 gpu_hold COUNT W=300 X=1000 D=1 proc=2 M
+21:53:41 gpu_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+21:53:50 gpu_hold COUNT W=300 X=1000 D=1 proc=3 M
+21:54:04 探测 gpu_hold SUM W=300 X=1000: OPP=11.783405 M=1.846574 ⇒ D=1
+21:55:27 gpu_hold SUM W=300 X=1000 D=1 proc=1 OPP
+21:55:40 gpu_hold SUM W=300 X=1000 D=1 proc=1 M
+21:56:51 gpu_hold SUM W=300 X=1000 D=1 proc=2 OPP
+21:57:02 gpu_hold SUM W=300 X=1000 D=1 proc=2 M
+21:58:13 gpu_hold SUM W=300 X=1000 D=1 proc=3 OPP
+21:58:24 gpu_hold SUM W=300 X=1000 D=1 proc=3 M
+21:58:56 探测 gpu_hold COUNT W=600 X=1000: OPP=27.959101 M=2.850171 ⇒ D=1
+22:02:09 gpu_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+22:02:30 gpu_hold COUNT W=600 X=1000 D=1 proc=1 M
+22:05:17 gpu_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+22:05:35 gpu_hold COUNT W=600 X=1000 D=1 proc=2 M
+22:08:20 gpu_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+22:08:38 gpu_hold COUNT W=600 X=1000 D=1 proc=3 M
+22:09:39 探测 gpu_hold SUM W=600 X=1000: OPP=56.387256 M=3.941182 ⇒ D=1
+22:16:11 gpu_hold SUM W=600 X=1000 D=1 proc=1 OPP
+22:16:41 gpu_hold SUM W=600 X=1000 D=1 proc=1 M
+22:22:20 gpu_hold SUM W=600 X=1000 D=1 proc=2 OPP
+22:22:46 gpu_hold SUM W=600 X=1000 D=1 proc=2 M
+22:28:26 gpu_hold SUM W=600 X=1000 D=1 proc=3 OPP
+22:28:52 gpu_hold SUM W=600 X=1000 D=1 proc=3 M
+22:34:11 探测 gpu_hold COUNT W=1800 X=1000: OPP=304.171047 M=14.873111 ⇒ D=1
+22:44:21 gpu_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+22:46:06 gpu_hold COUNT W=1800 X=1000 D=1 proc=1 M
+22:47:37 gpu_hold COUNT W=1800 X=1000 D=1 proc=2 M
+22:49:08 gpu_hold COUNT W=1800 X=1000 D=1 proc=3 M
+23:04:19 探测 gpu_hold SUM W=1800 X=1000: OPP=887.255429 M=23.355132 ⇒ D=1
+23:33:19 gpu_hold SUM W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+23:36:01 gpu_hold SUM W=1800 X=1000 D=1 proc=1 M
+23:38:20 gpu_hold SUM W=1800 X=1000 D=1 proc=2 M
+23:40:40 gpu_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after gpu: 4.55, 4.46, 4.33
+23:41:02 探测 llm_hold COUNT W=300 X=1000: OPP=10.786487 M=1.481958 ⇒ D=1
+23:42:18 llm_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+23:42:28 llm_hold COUNT W=300 X=1000 D=1 proc=1 M
+23:43:33 llm_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+23:43:42 llm_hold COUNT W=300 X=1000 D=1 proc=2 M
+23:44:47 llm_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+23:44:56 llm_hold COUNT W=300 X=1000 D=1 proc=3 M
+23:45:17 探测 llm_hold SUM W=300 X=1000: OPP=17.820774 M=1.836787 ⇒ D=1
+23:47:22 llm_hold SUM W=300 X=1000 D=1 proc=1 OPP
+23:47:35 llm_hold SUM W=300 X=1000 D=1 proc=1 M
+23:49:23 llm_hold SUM W=300 X=1000 D=1 proc=2 OPP
+23:49:34 llm_hold SUM W=300 X=1000 D=1 proc=2 M
+23:51:23 llm_hold SUM W=300 X=1000 D=1 proc=3 OPP
+23:51:34 llm_hold SUM W=300 X=1000 D=1 proc=3 M
+23:52:17 探测 llm_hold COUNT W=600 X=1000: OPP=39.175386 M=3.250562 ⇒ D=1
+23:56:51 llm_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+23:57:14 llm_hold COUNT W=600 X=1000 D=1 proc=1 M
+00:01:09 llm_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+00:01:29 llm_hold COUNT W=600 X=1000 D=1 proc=2 M
+00:05:24 llm_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+00:05:43 llm_hold COUNT W=600 X=1000 D=1 proc=3 M
+00:07:22 探测 llm_hold SUM W=600 X=1000: OPP=94.297408 M=4.359919 ⇒ D=1
+00:10:27 llm_hold SUM W=600 X=1000 D=1 proc=1 OPP 慢行单次
+00:10:59 llm_hold SUM W=600 X=1000 D=1 proc=1 M
+00:11:27 llm_hold SUM W=600 X=1000 D=1 proc=2 M
+00:11:56 llm_hold SUM W=600 X=1000 D=1 proc=3 M
+00:19:31 探测 llm_hold COUNT W=1800 X=1000: OPP=438.474193 M=16.646173 ⇒ D=1
+00:34:12 llm_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+00:36:09 llm_hold COUNT W=1800 X=1000 D=1 proc=1 M
+00:37:48 llm_hold COUNT W=1800 X=1000 D=1 proc=2 M
+00:39:28 llm_hold COUNT W=1800 X=1000 D=1 proc=3 M
+01:05:10 探测 llm_hold SUM W=1800 X=1000: OPP=1517.418578 M=24.158048 ⇒ D=1
+01:55:06 llm_hold SUM W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+01:57:58 llm_hold SUM W=1800 X=1000 D=1 proc=1 M
+02:00:25 llm_hold SUM W=1800 X=1000 D=1 proc=2 M
+02:02:52 llm_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after llm: 4.72, 4.46, 4.35
+02:03:16 探测 r25_hold COUNT W=600 X=1000: OPP=14.386537 M=2.249975 ⇒ D=1
+02:04:55 r25_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+02:05:10 r25_hold COUNT W=600 X=1000 D=1 proc=1 M
+02:06:34 r25_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+02:06:47 r25_hold COUNT W=600 X=1000 D=1 proc=2 M
+02:08:12 r25_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+02:08:25 r25_hold COUNT W=600 X=1000 D=1 proc=3 M
+02:10:58 探测 r100_hold COUNT W=600 X=1000: OPP=139.001074 M=13.359833 ⇒ D=1
+02:15:39 r100_hold COUNT W=600 X=1000 D=1 proc=1 OPP 慢行单次
+02:17:14 r100_hold COUNT W=600 X=1000 D=1 proc=1 M
+02:18:36 r100_hold COUNT W=600 X=1000 D=1 proc=2 M
+02:19:58 r100_hold COUNT W=600 X=1000 D=1 proc=3 M
+02:31:37 探测 r400_hold COUNT W=600 X=1000: OPP=618.198470 M=78.431708 ⇒ D=1
+02:52:18 r400_hold COUNT W=600 X=1000 D=1 proc=1 OPP 慢行单次
+02:54:46 r400_hold COUNT W=600 X=1000 D=1 proc=1 M 慢行单次
+02:58:54 探测 r25_hold COUNT W=1800 X=1000: OPP=239.500909 M=7.636267 ⇒ D=1
+03:06:55 r25_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+03:07:47 r25_hold COUNT W=1800 X=1000 D=1 proc=1 M
+03:08:32 r25_hold COUNT W=1800 X=1000 D=1 proc=2 M
+03:09:17 r25_hold COUNT W=1800 X=1000 D=1 proc=3 M
+03:26:35 探测 r100_hold COUNT W=1800 X=1000: OPP=998.176860 M=38.970490 ⇒ D=1
+03:59:48 r100_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+04:04:22 r100_hold COUNT W=1800 X=1000 D=1 proc=1 M
+04:08:18 r100_hold COUNT W=1800 X=1000 D=1 proc=2 M
+04:12:14 r100_hold COUNT W=1800 X=1000 D=1 proc=3 M
+05:22:28 探测 r400_hold COUNT W=1800 X=1000: OPP=4021.082559 M=188.836165 ⇒ D=1
+07:35:21 r400_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+07:41:32 r400_hold COUNT W=1800 X=1000 D=1 proc=1 M 慢行单次
+load after replay: 3.34, 3.28, 3.32

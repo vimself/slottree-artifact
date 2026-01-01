@@ -1,0 +1,210 @@
+load before wpi_hold: 5.53, 4.59, 3.96
+21:20:13 探测 wpi_hold COUNT W=300 X=1000: OPP=0.095732 M=0.076911 ⇒ D=1
+21:20:15 wpi_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+21:20:17 wpi_hold COUNT W=300 X=1000 D=1 proc=1 M
+21:20:19 wpi_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+21:20:22 wpi_hold COUNT W=300 X=1000 D=1 proc=2 M
+21:20:24 wpi_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+21:20:26 wpi_hold COUNT W=300 X=1000 D=1 proc=3 M
+21:20:26 探测 wpi_hold SUM W=300 X=1000: OPP=0.192556 M=0.105885 ⇒ D=1
+21:20:29 wpi_hold SUM W=300 X=1000 D=1 proc=1 OPP
+21:20:31 wpi_hold SUM W=300 X=1000 D=1 proc=1 M
+21:20:33 wpi_hold SUM W=300 X=1000 D=1 proc=2 OPP
+21:20:35 wpi_hold SUM W=300 X=1000 D=1 proc=2 M
+21:20:37 wpi_hold SUM W=300 X=1000 D=1 proc=3 OPP
+21:20:39 wpi_hold SUM W=300 X=1000 D=1 proc=3 M
+21:20:40 探测 wpi_hold COUNT W=600 X=1000: OPP=0.332001 M=0.165698 ⇒ D=1
+21:20:43 wpi_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+21:20:45 wpi_hold COUNT W=600 X=1000 D=1 proc=1 M
+21:20:48 wpi_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+21:20:50 wpi_hold COUNT W=600 X=1000 D=1 proc=2 M
+21:20:52 wpi_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+21:20:54 wpi_hold COUNT W=600 X=1000 D=1 proc=3 M
+21:20:55 探测 wpi_hold SUM W=600 X=1000: OPP=0.625619 M=0.257642 ⇒ D=1
+21:21:00 wpi_hold SUM W=600 X=1000 D=1 proc=1 OPP
+21:21:02 wpi_hold SUM W=600 X=1000 D=1 proc=1 M
+21:21:06 wpi_hold SUM W=600 X=1000 D=1 proc=2 OPP
+21:21:08 wpi_hold SUM W=600 X=1000 D=1 proc=2 M
+21:21:12 wpi_hold SUM W=600 X=1000 D=1 proc=3 OPP
+21:21:14 wpi_hold SUM W=600 X=1000 D=1 proc=3 M
+21:21:18 探测 wpi_hold COUNT W=1800 X=1000: OPP=2.932260 M=0.720930 ⇒ D=1
+21:21:38 wpi_hold COUNT W=1800 X=1000 D=1 proc=1 OPP
+21:21:43 wpi_hold COUNT W=1800 X=1000 D=1 proc=1 M
+21:22:00 wpi_hold COUNT W=1800 X=1000 D=1 proc=2 OPP
+21:22:05 wpi_hold COUNT W=1800 X=1000 D=1 proc=2 M
+21:22:22 wpi_hold COUNT W=1800 X=1000 D=1 proc=3 OPP
+21:22:26 wpi_hold COUNT W=1800 X=1000 D=1 proc=3 M
+21:22:34 探测 wpi_hold SUM W=1800 X=1000: OPP=6.366451 M=1.178871 ⇒ D=1
+21:23:18 wpi_hold SUM W=1800 X=1000 D=1 proc=1 OPP
+21:23:26 wpi_hold SUM W=1800 X=1000 D=1 proc=1 M
+21:24:04 wpi_hold SUM W=1800 X=1000 D=1 proc=2 OPP
+21:24:11 wpi_hold SUM W=1800 X=1000 D=1 proc=2 M
+21:24:49 wpi_hold SUM W=1800 X=1000 D=1 proc=3 OPP
+21:24:56 wpi_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after  wpi_hold: 5.37, 4.85, 4.22
+load before pamap2_hold: 6.13, 5.04, 4.29
+21:25:04 探测 pamap2_hold COUNT W=300 X=1000: OPP=0.313966 M=0.066743 ⇒ D=1
+21:25:07 pamap2_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+21:25:09 pamap2_hold COUNT W=300 X=1000 D=1 proc=1 M
+21:25:11 pamap2_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+21:25:14 pamap2_hold COUNT W=300 X=1000 D=1 proc=2 M
+21:25:16 pamap2_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+21:25:18 pamap2_hold COUNT W=300 X=1000 D=1 proc=3 M
+21:25:19 探测 pamap2_hold SUM W=300 X=1000: OPP=0.514434 M=0.091426 ⇒ D=1
+21:25:22 pamap2_hold SUM W=300 X=1000 D=1 proc=1 OPP
+21:25:25 pamap2_hold SUM W=300 X=1000 D=1 proc=1 M
+21:25:28 pamap2_hold SUM W=300 X=1000 D=1 proc=2 OPP
+21:25:30 pamap2_hold SUM W=300 X=1000 D=1 proc=2 M
+21:25:33 pamap2_hold SUM W=300 X=1000 D=1 proc=3 OPP
+21:25:35 pamap2_hold SUM W=300 X=1000 D=1 proc=3 M
+21:25:36 探测 pamap2_hold COUNT W=600 X=1000: OPP=1.312592 M=0.143105 ⇒ D=1
+21:25:46 pamap2_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+21:25:48 pamap2_hold COUNT W=600 X=1000 D=1 proc=1 M
+21:25:56 pamap2_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+21:25:58 pamap2_hold COUNT W=600 X=1000 D=1 proc=2 M
+21:26:06 pamap2_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+21:26:08 pamap2_hold COUNT W=600 X=1000 D=1 proc=3 M
+21:26:11 探测 pamap2_hold SUM W=600 X=1000: OPP=2.849242 M=0.207583 ⇒ D=1
+21:26:30 pamap2_hold SUM W=600 X=1000 D=1 proc=1 OPP
+21:26:33 pamap2_hold SUM W=600 X=1000 D=1 proc=1 M
+21:26:50 pamap2_hold SUM W=600 X=1000 D=1 proc=2 OPP
+21:26:52 pamap2_hold SUM W=600 X=1000 D=1 proc=2 M
+21:27:09 pamap2_hold SUM W=600 X=1000 D=1 proc=3 OPP
+21:27:11 pamap2_hold SUM W=600 X=1000 D=1 proc=3 M
+21:27:28 探测 pamap2_hold COUNT W=1800 X=1000: OPP=16.511096 M=0.479297 ⇒ D=1
+21:29:15 pamap2_hold COUNT W=1800 X=1000 D=1 proc=1 OPP
+21:29:18 pamap2_hold COUNT W=1800 X=1000 D=1 proc=1 M
+21:30:50 pamap2_hold COUNT W=1800 X=1000 D=1 proc=2 OPP
+21:30:53 pamap2_hold COUNT W=1800 X=1000 D=1 proc=2 M
+21:32:25 pamap2_hold COUNT W=1800 X=1000 D=1 proc=3 OPP
+21:32:28 pamap2_hold COUNT W=1800 X=1000 D=1 proc=3 M
+21:33:22 探测 pamap2_hold SUM W=1800 X=1000: OPP=52.937772 M=0.728167 ⇒ D=1
+21:39:24 pamap2_hold SUM W=1800 X=1000 D=1 proc=1 OPP
+21:39:29 pamap2_hold SUM W=1800 X=1000 D=1 proc=1 M
+21:44:38 pamap2_hold SUM W=1800 X=1000 D=1 proc=2 OPP
+21:44:42 pamap2_hold SUM W=1800 X=1000 D=1 proc=2 M
+21:49:47 pamap2_hold SUM W=1800 X=1000 D=1 proc=3 OPP
+21:49:51 pamap2_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after  pamap2_hold: 3.39, 3.86, 4.16
+load before porto_hold: 3.33, 3.83, 4.15
+21:50:01 探测 porto_hold COUNT W=300 X=1000: OPP=0.598858 M=0.634507 ⇒ D=1
+21:50:06 porto_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+21:50:11 porto_hold COUNT W=300 X=1000 D=1 proc=1 M
+21:50:15 porto_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+21:50:20 porto_hold COUNT W=300 X=1000 D=1 proc=2 M
+21:50:24 porto_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+21:50:28 porto_hold COUNT W=300 X=1000 D=1 proc=3 M
+21:50:31 探测 porto_hold SUM W=300 X=1000: OPP=0.687770 M=0.699150 ⇒ D=1
+21:50:36 porto_hold SUM W=300 X=1000 D=1 proc=1 OPP
+21:50:42 porto_hold SUM W=300 X=1000 D=1 proc=1 M
+21:50:46 porto_hold SUM W=300 X=1000 D=1 proc=2 OPP
+21:50:51 porto_hold SUM W=300 X=1000 D=1 proc=2 M
+21:50:56 porto_hold SUM W=300 X=1000 D=1 proc=3 OPP
+21:51:01 porto_hold SUM W=300 X=1000 D=1 proc=3 M
+21:51:04 探测 porto_hold COUNT W=600 X=1000: OPP=0.939137 M=1.007813 ⇒ D=1
+21:51:11 porto_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+21:51:19 porto_hold COUNT W=600 X=1000 D=1 proc=1 M
+21:51:25 porto_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+21:51:32 porto_hold COUNT W=600 X=1000 D=1 proc=2 M
+21:51:38 porto_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+21:51:45 porto_hold COUNT W=600 X=1000 D=1 proc=3 M
+21:51:48 探测 porto_hold SUM W=600 X=1000: OPP=1.162093 M=1.189146 ⇒ D=1
+21:51:57 porto_hold SUM W=600 X=1000 D=1 proc=1 OPP
+21:52:06 porto_hold SUM W=600 X=1000 D=1 proc=1 M
+21:52:14 porto_hold SUM W=600 X=1000 D=1 proc=2 OPP
+21:52:22 porto_hold SUM W=600 X=1000 D=1 proc=2 M
+21:52:30 porto_hold SUM W=600 X=1000 D=1 proc=3 OPP
+21:52:37 porto_hold SUM W=600 X=1000 D=1 proc=3 M
+21:52:43 探测 porto_hold COUNT W=1800 X=1000: OPP=2.048173 M=2.247143 ⇒ D=1
+21:52:58 porto_hold COUNT W=1800 X=1000 D=1 proc=1 OPP
+21:53:14 porto_hold COUNT W=1800 X=1000 D=1 proc=1 M
+21:53:27 porto_hold COUNT W=1800 X=1000 D=1 proc=2 OPP
+21:53:41 porto_hold COUNT W=1800 X=1000 D=1 proc=2 M
+21:53:54 porto_hold COUNT W=1800 X=1000 D=1 proc=3 OPP
+21:54:08 porto_hold COUNT W=1800 X=1000 D=1 proc=3 M
+21:54:16 探测 porto_hold SUM W=1800 X=1000: OPP=3.376771 M=3.266715 ⇒ D=1
+21:54:40 porto_hold SUM W=1800 X=1000 D=1 proc=1 OPP
+21:55:04 porto_hold SUM W=1800 X=1000 D=1 proc=1 M
+21:55:25 porto_hold SUM W=1800 X=1000 D=1 proc=2 OPP
+21:55:45 porto_hold SUM W=1800 X=1000 D=1 proc=2 M
+21:56:05 porto_hold SUM W=1800 X=1000 D=1 proc=3 OPP
+21:56:25 porto_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after  porto_hold: 3.82, 3.69, 3.96
+load before metrla_hold: 3.62, 3.65, 3.95
+21:56:35 探测 metrla_hold COUNT W=300 X=1000: OPP=0.188669 M=0.224491 ⇒ D=1
+21:56:38 metrla_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+21:56:41 metrla_hold COUNT W=300 X=1000 D=1 proc=1 M
+21:56:44 metrla_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+21:56:48 metrla_hold COUNT W=300 X=1000 D=1 proc=2 M
+21:56:51 metrla_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+21:56:54 metrla_hold COUNT W=300 X=1000 D=1 proc=3 M
+21:56:55 探测 metrla_hold SUM W=300 X=1000: OPP=0.205888 M=0.227535 ⇒ D=1
+21:56:59 metrla_hold SUM W=300 X=1000 D=1 proc=1 OPP
+21:57:02 metrla_hold SUM W=300 X=1000 D=1 proc=1 M
+21:57:05 metrla_hold SUM W=300 X=1000 D=1 proc=2 OPP
+21:57:08 metrla_hold SUM W=300 X=1000 D=1 proc=2 M
+21:57:11 metrla_hold SUM W=300 X=1000 D=1 proc=3 OPP
+21:57:14 metrla_hold SUM W=300 X=1000 D=1 proc=3 M
+21:57:16 探测 metrla_hold COUNT W=600 X=1000: OPP=0.231997 M=0.266776 ⇒ D=1
+21:57:19 metrla_hold COUNT W=600 X=1000 D=1 proc=1 OPP
+21:57:23 metrla_hold COUNT W=600 X=1000 D=1 proc=1 M
+21:57:26 metrla_hold COUNT W=600 X=1000 D=1 proc=2 OPP
+21:57:29 metrla_hold COUNT W=600 X=1000 D=1 proc=2 M
+21:57:32 metrla_hold COUNT W=600 X=1000 D=1 proc=3 OPP
+21:57:35 metrla_hold COUNT W=600 X=1000 D=1 proc=3 M
+21:57:37 探测 metrla_hold SUM W=600 X=1000: OPP=0.247048 M=0.281139 ⇒ D=1
+21:57:40 metrla_hold SUM W=600 X=1000 D=1 proc=1 OPP
+21:57:44 metrla_hold SUM W=600 X=1000 D=1 proc=1 M
+21:57:47 metrla_hold SUM W=600 X=1000 D=1 proc=2 OPP
+21:57:50 metrla_hold SUM W=600 X=1000 D=1 proc=2 M
+21:57:53 metrla_hold SUM W=600 X=1000 D=1 proc=3 OPP
+21:57:57 metrla_hold SUM W=600 X=1000 D=1 proc=3 M
+21:57:59 探测 metrla_hold COUNT W=1800 X=1000: OPP=0.391624 M=0.462786 ⇒ D=1
+21:58:03 metrla_hold COUNT W=1800 X=1000 D=1 proc=1 OPP
+21:58:07 metrla_hold COUNT W=1800 X=1000 D=1 proc=1 M
+21:58:10 metrla_hold COUNT W=1800 X=1000 D=1 proc=2 OPP
+21:58:14 metrla_hold COUNT W=1800 X=1000 D=1 proc=2 M
+21:58:17 metrla_hold COUNT W=1800 X=1000 D=1 proc=3 OPP
+21:58:20 metrla_hold COUNT W=1800 X=1000 D=1 proc=3 M
+21:58:23 探测 metrla_hold SUM W=1800 X=1000: OPP=0.447423 M=0.518702 ⇒ D=1
+21:58:26 metrla_hold SUM W=1800 X=1000 D=1 proc=1 OPP
+21:58:31 metrla_hold SUM W=1800 X=1000 D=1 proc=1 M
+21:58:34 metrla_hold SUM W=1800 X=1000 D=1 proc=2 OPP
+21:58:38 metrla_hold SUM W=1800 X=1000 D=1 proc=2 M
+21:58:41 metrla_hold SUM W=1800 X=1000 D=1 proc=3 OPP
+21:58:45 metrla_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after  metrla_hold: 3.60, 3.63, 3.90
+load before binance_hold: 3.47, 3.60, 3.89
+21:59:30 探测 binance_hold COUNT W=300 X=1000: OPP=32.404242 M=4.044978 ⇒ D=1
+22:03:19 binance_hold COUNT W=300 X=1000 D=1 proc=1 OPP
+22:03:47 binance_hold COUNT W=300 X=1000 D=1 proc=1 M
+22:07:03 binance_hold COUNT W=300 X=1000 D=1 proc=2 OPP
+22:07:27 binance_hold COUNT W=300 X=1000 D=1 proc=2 M
+22:10:42 binance_hold COUNT W=300 X=1000 D=1 proc=3 OPP
+22:11:07 binance_hold COUNT W=300 X=1000 D=1 proc=3 M
+22:12:21 探测 binance_hold SUM W=300 X=1000: OPP=67.265848 M=6.330112 ⇒ D=1
+22:14:48 binance_hold SUM W=300 X=1000 D=1 proc=1 OPP 慢行单次
+22:15:32 binance_hold SUM W=300 X=1000 D=1 proc=1 M
+22:16:10 binance_hold SUM W=300 X=1000 D=1 proc=2 M
+22:16:48 binance_hold SUM W=300 X=1000 D=1 proc=3 M
+22:19:09 探测 binance_hold COUNT W=600 X=1000: OPP=129.770540 M=9.967210 ⇒ D=1
+22:23:28 binance_hold COUNT W=600 X=1000 D=1 proc=1 OPP 慢行单次
+22:24:39 binance_hold COUNT W=600 X=1000 D=1 proc=1 M
+22:25:39 binance_hold COUNT W=600 X=1000 D=1 proc=2 M
+22:26:39 binance_hold COUNT W=600 X=1000 D=1 proc=3 M
+22:32:07 探测 binance_hold SUM W=600 X=1000: OPP=310.242663 M=16.891106 ⇒ D=1
+22:43:00 binance_hold SUM W=600 X=1000 D=1 proc=1 OPP 慢行单次
+22:44:58 binance_hold SUM W=600 X=1000 D=1 proc=1 M
+22:46:39 binance_hold SUM W=600 X=1000 D=1 proc=2 M
+22:48:21 binance_hold SUM W=600 X=1000 D=1 proc=3 M
+23:18:09 探测 binance_hold COUNT W=1800 X=1000: OPP=1747.570109 M=40.033738 ⇒ D=1
+00:16:17 binance_hold COUNT W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+00:20:57 binance_hold COUNT W=1800 X=1000 D=1 proc=1 M
+00:24:57 binance_hold COUNT W=1800 X=1000 D=1 proc=2 M
+00:28:56 binance_hold COUNT W=1800 X=1000 D=1 proc=3 M
+01:41:04 探测 binance_hold SUM W=1800 X=1000: OPP=4267.888937 M=59.318195 ⇒ D=1
+04:02:56 binance_hold SUM W=1800 X=1000 D=1 proc=1 OPP 慢行单次
+04:09:54 binance_hold SUM W=1800 X=1000 D=1 proc=1 M
+04:15:54 binance_hold SUM W=1800 X=1000 D=1 proc=2 M
+04:21:52 binance_hold SUM W=1800 X=1000 D=1 proc=3 M
+load after  binance_hold: 3.35, 3.31, 3.32

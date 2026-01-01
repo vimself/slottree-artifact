@@ -1,0 +1,18 @@
+# E9 流 B 的切片（README 第 2 节）：Chutes 生产流量 harvardMadsys/chutes_metadata，https://huggingface.co/datasets/harvardMadsys/chutes_metadata/resolve/main/data/trace/train-00000-of-00045.parquet
+# 分片 sha256 1d3bf71db1ca5357654db4e52f1c55c9fbd184e7da0918f6b0b25c8612623a47，136200192 行；started_at 已归一化（分片最早 t0 = 0 µs）
+# 规则：最小的整小时数 T，使 [t0, t0 + T h) 里 ttft 非空请求数最多的 10 个模型合计 ≥ N_B = 2500000
+T_hours	27
+events	2571716
+ttft_decimals_d	3
+# ttft 的 float32 最短十进制写法的小数位分布：0 位 1563，1 位 23555，2 位 231534，3 位 2314797，7 位 10，8 位 41，9 位 150，10 位 66
+chute_id	nonnull_ttft_requests
+154ad01c-a431-5744-83c8-651215124360	1756881
+de510462-c319-543b-9c67-00bcf807d2a7	504301
+f85b3111-daca-565a-a0f0-2d222abc0e16	96399
+fa4181ad-0cf1-5531-afdb-bbffbf2ff945	89033
+fa22e795-ecc0-55d9-b665-422a6320439f	49339
+16f41e4f-f2ca-5580-a0a6-46727ae4c212	30517
+7fcdd1be-60d9-529a-a35e-7d5b147867e2	16296
+aaa8ef8d-e681-5c50-9bef-5cfaf33fd164	13589
+dd25b244-0a6c-5033-8ffd-ff58e098e31a	8239
+e3653034-9f58-5cf6-84f8-d5555e55fbd6	7122

@@ -1,0 +1,40 @@
+load before wpi_hold: 3.53, 3.18, 3.02
+14:37:59 e7 探测 wpi_hold COUNT W=300 X=1000: M=0.071763；D=1（v1）
+14:38:05 e7 探测 wpi_hold SUM W=300 X=1000: M=0.099149；D=1（v1）
+14:38:12 e7 探测 wpi_hold COUNT W=600 X=1000: M=0.163450；D=1（v1）
+14:38:18 e7 探测 wpi_hold SUM W=600 X=1000: M=0.253903；D=1（v1）
+14:38:26 e7 探测 wpi_hold COUNT W=1800 X=1000: M=0.694323；D=1（v1）
+14:38:40 e7 探测 wpi_hold SUM W=1800 X=1000: M=1.179666；D=1（v1）
+load after  wpi_hold: 3.48, 3.26, 3.05
+load before pamap2_hold: 3.44, 3.25, 3.05
+14:39:10 e7 探测 pamap2_hold COUNT W=300 X=1000: M=0.066054；D=1（v1）
+14:39:16 e7 探测 pamap2_hold SUM W=300 X=1000: M=0.089466；D=1（v1）
+14:39:23 e7 探测 pamap2_hold COUNT W=600 X=1000: M=0.137965；D=1（v1）
+14:39:30 e7 探测 pamap2_hold SUM W=600 X=1000: M=0.205319；D=1（v1）
+14:39:37 e7 探测 pamap2_hold COUNT W=1800 X=1000: M=0.478822；D=1（v1）
+14:39:46 e7 探测 pamap2_hold SUM W=1800 X=1000: M=0.709903；D=1（v1）
+load after  pamap2_hold: 3.39, 3.27, 3.07
+load before porto_hold: 3.25, 3.25, 3.07
+14:40:10 e7 探测 porto_hold COUNT W=300 X=1000: M=0.633736；D=1（v1）
+14:40:25 e7 探测 porto_hold SUM W=300 X=1000: M=0.691660；D=1（v1）
+14:40:42 e7 探测 porto_hold COUNT W=600 X=1000: M=1.005646；D=1（v1）
+14:41:05 e7 探测 porto_hold SUM W=600 X=1000: M=1.192738；D=1（v1）
+14:41:32 e7 探测 porto_hold COUNT W=1800 X=1000: M=2.205508；D=1（v1）
+14:42:19 e7 探测 porto_hold SUM W=1800 X=1000: M=3.188651；D=1（v1）
+load after  porto_hold: 3.63, 3.43, 3.17
+load before metrla_hold: 3.22, 3.35, 3.14
+14:43:31 e7 探测 metrla_hold COUNT W=300 X=1000: M=0.223430；D=1（v1）
+14:43:42 e7 探测 metrla_hold SUM W=300 X=1000: M=0.229940；D=1（v1）
+14:43:52 e7 探测 metrla_hold COUNT W=600 X=1000: M=0.289624；D=1（v1）
+14:44:03 e7 探测 metrla_hold SUM W=600 X=1000: M=0.285517；D=1（v1）
+14:44:14 e7 探测 metrla_hold COUNT W=1800 X=1000: M=0.456419；D=1（v1）
+14:44:26 e7 探测 metrla_hold SUM W=1800 X=1000: M=0.499294；D=1（v1）
+load after  metrla_hold: 3.71, 3.47, 3.20
+load before binance_hold: 3.60, 3.46, 3.20
+14:44:49 e7 探测 binance_hold COUNT W=300 X=1000: M=4.092237；D=1（v1）
+14:46:13 e7 探测 binance_hold SUM W=300 X=1000: M=6.382724；D=1（v1）
+14:48:25 e7 探测 binance_hold COUNT W=600 X=1000: M=10.192770；D=1（v1）
+14:51:54 e7 探测 binance_hold SUM W=600 X=1000: M=16.711480；D=1（v1）
+14:57:51 e7 探测 binance_hold COUNT W=1800 X=1000: M=40.010345；D=1（v1）
+15:11:40 e7 探测 binance_hold SUM W=1800 X=1000: M=59.407003；D=1（v1）
+load after  binance_hold: 4.54, 4.09, 3.98

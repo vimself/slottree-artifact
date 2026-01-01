@@ -1,0 +1,3 @@
+data	name	predicate	s	events	groups	span_h	n_300	n_600	n_1800	thr_M_Mev_s	thr_OPP_Mev_s	mem_M_MB	mem_OPP_MB
+gpu	GPU 功耗（MIT Supercloud，训练集群）	power_draw <	30	2500404	25	2226.8	2807	5611	16763	1.170	0.099	338	167
+llm	LLM 推理首 token 延迟（Chutes，服务集群）	ttft <	30	2571716	10	27.0	115	226	665	1.203	0.065	174	169

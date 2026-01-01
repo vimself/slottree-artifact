@@ -1,0 +1,28 @@
+E11 · 合成流 n = 10⁶ 上补跑 GRETA-C++ 的两格（描述性，不设判据；主实验之后加的格，README 开头）
+流 rw-n1000000-g1-b0：随机游走、1 组、W = 600 s、COUNT、⋈ 为 >；GRETA-C++ 单次计时，SlotTree 取 3 遍中位
+
+k	事件	T_GRETA-C++ 秒	T_SlotTree 秒	r	E5 的预计 秒	实测÷预计	E8 表里 SlotTree 秒	峰值 MB GRETA-C++	峰值 MB SlotTree	校验和一致
+1	10000611	4366.7018	2.8612	1526.2	2502.8	1.745	2.8245	661	755	是
+6	10000611	20741.9947	7.6096	2725.8	10862.0	1.910	5.5445	640	1652	是
+
+对照（exp/e8-inpane/report_e5_v2.txt S1）：n = 10⁵ 时 12 格的 r 为 115–376；n = 10⁶ 其余 10 个 GRETA-C++ 格仍是预计、没跑。
+
+机器与负载（handoff/e11_env.txt）：
+  # E11 run  2026-11-11 21:00:46 PST
+  Apple clang version 21.0.0 (clang-2100.3.34.2)
+  Apple M4
+  memory_bytes 17179869184
+  stream rw-n1000000-g1-b0  events 10000611  sha256 8a8ed7ce5cedec0e3334a23c7d27e00e6f176759f6d55c822ebd16d78a451a15
+  source sha256 3fff525e382bed66eebc76f6cc570b1340e6887b11100a76bcecd98053f98ca3
+  2026-11-11 21:01:03  k=1 GRETA-C++ 开始前  load: 3.60 3.59 3.57
+  2026-11-11 22:13:50  k=1 GRETA-C++ 结束后  load: 3.29 3.64 3.70
+  2026-11-11 22:14:29  k=6 GRETA-C++ 开始前  load: 3.97 3.75 3.73
+  # E11 resume  2026-11-12 02:15:45 PST
+  Apple clang version 21.0.0 (clang-2100.3.34.2)
+  Apple M4
+  memory_bytes 17179869184
+  stream rw-n1000000-g1-b0  events 10000611  sha256 8a8ed7ce5cedec0e3334a23c7d27e00e6f176759f6d55c822ebd16d78a451a15
+  source sha256 3fff525e382bed66eebc76f6cc570b1340e6887b11100a76bcecd98053f98ca3
+  2026-11-12 02:15:45  k=6 GRETA-C++ 开始前  load: 3.13 3.16 2.77
+  2026-11-12 08:01:28  k=6 GRETA-C++ 结束后  load: 2.95 2.45 2.24
+  # done 2026-11-12 08:01:28 PST
